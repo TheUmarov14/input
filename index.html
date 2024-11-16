@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+
+    <!-- Fonts Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts End -->
+
+    <!-- Icon Start -->
+    <link rel="shortcut icon" href="./images/user.png" type="image/x-icon" />
+    <!-- Icon End -->
+
+    <!-- Style Start -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Style End -->
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+          <div class="forms">
+            <div class="forms__full">
+              <div class="forms-name-last">
+                <div class="form__group-name">
+                  <label class="first" for="username"
+                    >First Name <span class="yulduzcha">*</span>
+                    <input
+                      class="first-name"
+                      type="text"
+                      name=""
+                      id="username"
+                    />
+                  </label>
+                </div>
+                <div class="form__group-last">
+                  <label class="last" for="last"
+                    >Last Name <span class="yulduzcha">*</span></label
+                  >
+                  <input class="last-name" type="tel" name="" id="last" />
+                </div>
+              </div>
+              <div class="form__group-mail">
+                <label class="maill" for="email"
+                  >Email Address <span class="yulduzcha">*</span></label
+                >
+                <input class="mail" type="email" name="" id="email" />
+              </div>
+              <span style="margin-top: 24px"
+                >Query Type <span class="yulduzcha">*</span></span
+              >
+              <lable class="query">
+                <div class="general-radi">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="query-type"
+                    id="radio"
+                  />
+                  <span class="generals">General Enquiry</span>
+                </div>
+                <div class="support-radi">
+                  <input
+                    class="radio"
+                    type="radio"
+                    name="query-type"
+                    id="radio"
+                  />
+                  <span class="generals">General Enquiry</span>
+                </div>
+              </lable>
+            </div>
+            <label class="are" for="area"
+              >Message <span class="yulduzcha">*</span></label
+            >
+            <textarea class="textarea" name="area" id=""></textarea>
+
+            <div class="checkboxs">
+              <input type="checkbox" name="chec" id="" />
+              <label name="chec" class="check"
+                >I consent to being contacted by the team *</label
+              >
+            </div>
+
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

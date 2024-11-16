@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+}
+
+body,
+html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #e0f1e8;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  margin-bottom: 32px;
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+a {
+  display: inline-block;
+}
+
+.container {
+  width: 736px;
+  height: 773px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    cursor: text;
+  }
+}
+
+.first {
+}
+
+.forms-name-last {
+  display: flex;
+  gap: 16px;
+
+  .last-name {
+    width: 320px;
+    height: 51px;
+    border: 1px solid #86a2a5;
+    border-radius: 8px;
+    margin-top: 8px;
+    box-sizing: border-box;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #0c7d69;
+    }
+
+    &:focus {
+      outline: none;
+      cursor: text;
+    }
+
+    &:active {
+      border: 1px solid #0c7d69;
+    }
+  }
+
+  .first-name {
+    margin-top: 8px;
+    width: 320px;
+    height: 51px;
+    border: 1px solid #86a2a5;
+    border-radius: 8px;
+    transition: 0.3s;
+
+    box-sizing: border-box;
+    &:hover {
+      cursor: pointer;
+      border: 1px solid #0c7d69;
+    }
+
+    &:focus {
+      outline: none;
+      cursor: text;
+    }
+
+    &:active {
+      border: 1px solid #0c7d69;
+    }
+  }
+}
+
+.forms__full {
+  display: flex;
+  flex-direction: column;
+}
+
+.mail {
+  width: 100%;
+  height: 51px;
+  border: 1px solid #86a2a5;
+  box-sizing: border-box;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #0c7d69;
+  }
+
+  &:focus {
+    outline: none;
+    cursor: text;
+  }
+
+  &:active {
+    border: 1px solid #0c7d69;
+  }
+}
+
+.maill {
+  display: flex;
+  margin-top: 24px;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.forms {
+  width: 656px;
+  height: 530px;
+}
+
+.yulduzcha {
+}
+
+.first {
+  display: inline-block;
+}
+
+.maill {
+  display: inline-block;
+}
+
+.last {
+  display: inline-block;
+}
+
+/* Radio */
+
+.general-radi {
+  display: flex;
+  width: 320px;
+  height: 51px;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #86a2a5;
+  border-radius: 8px;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  margin-top: 16px;
+
+  &:hover {
+    border: 1px solid #0c7d69;
+    cursor: pointer;
+  }
+
+  &:active {
+    border: 1px solid #0c7d69;
+    background-color: #e0f1e8;
+  }
+}
+
+.query {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.support-radi {
+  display: flex;
+  width: 320px;
+  height: 51px;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #86a2a5;
+  border-radius: 8px;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 24px;
+
+  &:hover {
+    border: 1px solid #0c7d69;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #e0f1e8;
+  }
+}
+
+.radio {
+  cursor: pointer;
+}
+
+.textarea {
+  resize: vertical;
+  outline: none;
+  width: 656px;
+  height: 105px;
+  padding: 12px 24px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  color: #2a4144;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.are {
+  display: inline;
+}
+
+input {
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
+  color: #2a4144;
+}
+
+.checkboxs {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 656px;
+  height: 59px;
+  border-radius: 8px;
+  gap: 16px;
+  background-color: #0c7d69;
+  outline: none;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #0b4b40;
+    opacity: 100%;
+  }
+
+  &:active {
+    background-color: #0c7d69;
+    opacity: 80%;
+  }
+}
+
